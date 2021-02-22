@@ -75,6 +75,40 @@
         <url-pattern>/urlservlet2</url-pattern>
     </servlet-mapping>
 
+
+
+    <servlet>
+        <description></description>
+        <display-name>HhtpLoginServlet</display-name>
+        <servlet-name>HhtpLoginServlet</servlet-name>
+        <servlet-class>dl.iitu.kz.HhtpLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HhtpLoginServlet</servlet-name>
+        <url-pattern>/HhtpLoginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description></description>
+        <display-name>HhtpProfileServlet</display-name>
+        <servlet-name>HhtpProfileServlet</servlet-name>
+        <servlet-class>dl.iitu.kz.HhtpProfileServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HhtpProfileServlet</servlet-name>
+        <url-pattern>/HhtpProfileServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description></description>
+        <display-name>HhtpLogoutServlet</display-name>
+        <servlet-name>HhtpLogoutServlet</servlet-name>
+        <servlet-class>dl.iitu.kz.HhtpLogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HhtpLogoutServlet</servlet-name>
+        <url-pattern>/HhtpLogoutServlet</url-pattern>
+    </servlet-mapping>
+
+
     <welcome-file-list>
         <welcome-file>index.html</welcome-file>
     </welcome-file-list>
