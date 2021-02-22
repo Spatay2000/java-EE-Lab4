@@ -54,6 +54,27 @@
         <url-pattern>/servlet2</url-pattern>
     </servlet-mapping>
 
+
+    <servlet>
+        <servlet-name>S1</servlet-name>
+        <servlet-class>URLFirstServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>S1</servlet-name>
+        <url-pattern>/urlservlet1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>S2</servlet-name>
+        <servlet-class>URLSecondServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>S2</servlet-name>
+        <url-pattern>/urlservlet2</url-pattern>
+    </servlet-mapping>
+
     <welcome-file-list>
         <welcome-file>index.html</welcome-file>
     </welcome-file-list>
